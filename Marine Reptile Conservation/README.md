@@ -1,6 +1,6 @@
 # Blue Visionary
 
-<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/f8bcae96-eccd-4302-90c8-83611422a0b6" />
+<img width="1920" height="600" alt="image" src="https://github.com/user-attachments/assets/f8bcae96-eccd-4302-90c8-83611422a0b6" />
 
 ## Project Overview
 
