@@ -1,29 +1,8 @@
-# Hi, I'm Nikita Ahlawat, - Data Scientist
+# Cyclesafe Melbourne<
 
-I am a Data Scientist with a Master’s in Data Science and a diverse background across analytics, business intelligence, and technology operations. I specialise in turning complex data into predictive models, insights, and clear narratives that inform decision-making.
-My experience spans machine learning, data engineering, visualisation, and cross-functional collaboration—working with stakeholders from operational teams through to business leaders.
-I enjoy building reproducible analytical workflows, improving data quality, and presenting insights in a way that non-technical audiences can quickly understand.
+## Project Overview 
+The growing climate crisis and rising environmental awareness are driving a shift towards sustainable transportation in cities like Melbourne. There is a current need for the City of Melbourne to prosper urban planning that creates safe, affordable and resilient cities with green and environmental living conditions. While cycling offers a clean and healthy way to get around, concerns about safety due to heavy traffic and limited cycling infrastructure deter many commuters. How can we encourage Victorians to embrace cycling as a safer and more eco-conscious commuting option?
 
 ## 📊 Skills & Tools
 
-### Programming & ML
-- Python, R, SQL  
-- Scikit-learn, Regression & Classification models, Natural Language Processing  
-- Feature engineering, EDA, Hypothesis Testing, A/B Testing  
-- Introductory exposure: TensorFlow, PyTorch
 
-### Data & Cloud
-- Pandas, NumPy  
-- BigQuery (GCP)  
-- Familiarity with Azure Fundamentals  
-- Data cleaning, preprocessing, pipeline design
-
-### Visualisation
-- Power BI, Tableau, Qlik Sense/QlikView  
-- Interactive dashboards, KPI reporting
-
-### Soft Skills
-- Communicating insights to non-technical audiences  
-- Structured problem-solving  
-- Cross-functional collaboration  
-- Stakeholder engagement
