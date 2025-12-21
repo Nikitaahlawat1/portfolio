@@ -7,7 +7,7 @@ The growing climate crisis and rising environmental awareness are driving a shif
 ## 📊 Skills & Tools
 
 ### Tools
-- Python, SQL, Pandas, NumPy, GIT, Machine Learning, D3.js, RestAPI, Excel, CSV, APIs
+- Python, SQL, Pandas, NumPy, GIT, Machine Learning, D3.js, RestAPI, Excel, CSV, APIs, Azure
 
 ### Soft Skills
 - Leadership, Team Collaboration, Communicating insights to non-technical audiences, Structured problem-solving, Cross-functional collaboration
