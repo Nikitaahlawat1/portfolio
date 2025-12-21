@@ -15,6 +15,8 @@ The project aims to create an interactive and educational website focused on mar
 - Leadership, Team Collaboration, Communicating insights to non-technical audiences, Structured problem-solving, Cross-functional collaboration
 
 ## Data Usage
+The below datasets are collectively used to analyze marine biodiversity threats and plastic pollution across Australia by integrating endangered marine species data, plastic debris observations, waste management and population statistics, environmental policies, and computer vision models to support mapping, analysis, and decision-making at national and state levels.
+
 1.	Species of National Environmental Significance and selected marine and cetacean species  - https://fed.dcceew.gov.au/datasets/erin::species-of-national-environmental-significance-and-selected-marine-and-cetacean-species/explore?location=-19.690183%2C-73.460000%2C2.72&showTable=true
 
 2.	Threatened Species State Lists  - https://data.gov.au/data/dataset/ae652011-f39e-4c6c-91b8-1dc2d2dfee8f/resource/78401dce-1f40-49d3-92c4-3713d6e34974/download/20240716spcs.csv
