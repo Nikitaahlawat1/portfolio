@@ -1,8 +1,8 @@
-# Hi, I'm Nikita Ahlawat, - Data Scientist
+# Blue Visionary
 
-I am a Data Scientist with a Master’s in Data Science and a diverse background across analytics, business intelligence, and technology operations. I specialise in turning complex data into predictive models, insights, and clear narratives that inform decision-making.
-My experience spans machine learning, data engineering, visualisation, and cross-functional collaboration—working with stakeholders from operational teams through to business leaders.
-I enjoy building reproducible analytical workflows, improving data quality, and presenting insights in a way that non-technical audiences can quickly understand.
+<img width="282" height="142" alt="image" src="https://github.com/user-attachments/assets/f8bcae96-eccd-4302-90c8-83611422a0b6" />
+
+The project aims to create an interactive and educational website focused on marine conservation in Australia. The platform will provide users with vital resources and tools which include marine plastic pollution, information about endangered marine reptiles like sea turtles, tools for testing marine knowledge, a role play game about sea turtles, a system that can identify and track users’ contribution about marine conservation and information about the plastic process facilities. This website aims to empower marine conscious individuals to put more effort into marine conservation  and raise the public awareness of protecting the ocean.
 
 ## 📊 Skills & Tools
 
