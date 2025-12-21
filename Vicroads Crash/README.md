@@ -11,4 +11,5 @@ The growing climate crisis and rising environmental awareness are driving a shif
 ### Soft Skills
 - Leadership, Team Collaboration, Communicating insights to non-technical audiences, Structured problem-solving, Cross-functional collaboration
 
-
+## Implementation
+<img width="1920" height="1080" alt="TP17_homepage" src="https://github.com/user-attachments/assets/5b9b07f3-af0d-48e6-9423-6795e5b61b3b" />
