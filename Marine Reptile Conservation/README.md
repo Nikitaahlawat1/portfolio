@@ -58,7 +58,7 @@ After cleaning and standardizing the data, an Entity Relationship Diagram (ERD) 
 ### Endangered marine species insights by state
 This visualisation highlights endangered marine species from each state and provides a state by state view of where endangered species are most at risk. By identifying the most endangered species within their state, young marine conservation enthusiasts can focus their efforts on learning about and advocating for these critical species. This helps students prioritise conservation actions through school projects, social media campaigns, or community outreach, supporting the preservation of biodiversity in local marine ecosystems.
 
-<img src="assets/end_spac.png" alt="Alt text" width="700">
+<img src="[assets/end_spac.png](https://github.com/Nikitaahlawat1/portfolio/blob/main/assets/end_sp.png)" alt="Alt text" width="700">
 
 ### Marine plastic pollution insights by state
 
