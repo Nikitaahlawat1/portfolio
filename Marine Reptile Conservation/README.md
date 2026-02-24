@@ -58,7 +58,7 @@ After cleaning and standardizing the data, an Entity Relationship Diagram (ERD) 
 ### Endangered marine species insights by state
 This visualisation highlights endangered marine species from each state and provides a state by state view of where endangered species are most at risk. By identifying the most endangered species within their state, young marine conservation enthusiasts can focus their efforts on learning about and advocating for these critical species. This helps students prioritise conservation actions through school projects, social media campaigns, or community outreach, supporting the preservation of biodiversity in local marine ecosystems.
 
-<img src="https://github.com/Nikitaahlawat1/portfolio/blob/fe4058a3f38eb84d5f0570b6a52632bccba49cbe/assets/end_sp.png" alt="Alt text" width="900">
+<img src="https://github.com/Nikitaahlawat1/portfolio/blob/fe4058a3f38eb84d5f0570b6a52632bccba49cbe/assets/end_sp.png" alt="Alt text" width="1000">
 
 ### Marine plastic pollution insights by state
 
@@ -94,4 +94,4 @@ This section covers a feature that lets users record and monitor their plastic w
 
 Interactive map below provides a system that helps eco conscious users locate and visit plastic processing facilities so they can handle collected plastic waste responsibly. It makes it easier to find nearby places to clean, sort, and recycle plastic waste, supporting daily efforts to combat plastic pollution. By encouraging facility visits, the system helps reduce plastic waste in local communities and strengthens sustainable waste management.
 
-<img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/re_fac.png" alt="Alt text" width="900">
+<img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/re_fac.png" alt="Alt text" width="1000">
