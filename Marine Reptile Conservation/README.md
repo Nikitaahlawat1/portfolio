@@ -53,4 +53,45 @@ To ensure the dataset was suitable for downstream analysis and modeling, additio
 
 After cleaning and standardizing the data, an Entity Relationship Diagram (ERD) was developed to define and document relationships between entities, minimize redundancy, and improve query reliability. Based on the ERD, entity attributes were exported into separate CSV files to create well-structured datasets that can support deeper analysis, machine learning workflows, and advanced statistical methods.
 
-## Data Visualisations
+## Data Visualisations and Insights
+
+### Endangered marine species insights by state
+This visualisation highlights endangered marine species from each state and provides a state by state view of where endangered species are most at risk. By identifying the most endangered species within their state, young marine conservation enthusiasts can focus their efforts on learning about and advocating for these critical species. This helps students prioritise conservation actions through school projects, social media campaigns, or community outreach, supporting the preservation of biodiversity in local marine ecosystems.
+
+<img src="assets/end_spac.png" alt="Alt text" width="700">
+
+### Marine plastic pollution insights by state
+
+Visualisations below presents data insights on pollution, focusing on the distribution of marine plastic pollution by state across Australia’s coastal and marine regions. By visualising pollution data, busy individuals who work or live in urban areas can quickly understand the extent and locations of pollution and focus cleanup efforts on the most affected regions near them. This supports more informed action, highlights the urgency of marine conservation, and makes it easier to engage even with limited time for research or direct involvement.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/plas_dis.png" alt="Image 1" width="450">
+    </td>
+    <td align="center">
+      <img src="assets/plas_trend.png" alt="Image 2" width="450">
+    </td>
+  </tr>
+</table>
+
+### Plastic waste reduction tracker insights
+
+This section covers a feature that lets users record and monitor their plastic waste reduction activities. Users can track details such as single use plastics avoided, reusable items adopted, and plastic waste properly recycled. By turning these actions into a clear personal record, the tracker helps users see the impact they are making, understand their contribution to reducing plastic pollution, and stay motivated to keep practicing more sustainable habits.
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="assets/rec_track.png" alt="Image 1" width="450">
+    </td>
+    <td align="center">
+      <img src="assets/plas_con.png" alt="Image 2" width="450">
+    </td>
+  </tr>
+</table>
+
+### Plastic processing facilities for better waste management insights
+
+Interactive map below provides a system that helps eco conscious users locate and visit plastic processing facilities so they can handle collected plastic waste responsibly. It makes it easier to find nearby places to clean, sort, and recycle plastic waste, supporting daily efforts to combat plastic pollution. By encouraging facility visits, the system helps reduce plastic waste in local communities and strengthens sustainable waste management.
+
+<img src="assets/re_fac.png" alt="Alt text" width="700">
