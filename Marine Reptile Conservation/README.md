@@ -45,5 +45,12 @@ The datasets below are collectively used to analyze marine biodiversity threats 
 
 14.	Population Dataset - https://www.abs.gov.au/statistics/people/population/historical-population/2021
 
+## Data Preparation & Wrangling
+
+In the initial exploration phase, the dataset was assessed for common quality issues that could distort results, including missing values, inconsistencies, outliers, and potentially corrupted records. Where issues were detected, decisions were made to either clean the affected fields or remove problematic rows to maintain analytical integrity.
+
+To ensure the dataset was suitable for downstream analysis and modeling, additional preprocessing steps were applied as needed, including normalization (to enforce consistent units of measurement) and transformations to improve interpretability and model compatibility. Data wrangling also included feature creation, variable transformations, and restructuring tables to support more efficient analysis. Standardization was prioritized throughout to reduce the risk of errors during later stages.
+
+After cleaning and standardizing the data, an Entity Relationship Diagram (ERD) was developed to define and document relationships between entities, minimize redundancy, and improve query reliability. Based on the ERD, entity attributes were exported into separate CSV files to create well-structured datasets that can support deeper analysis, machine learning workflows, and advanced statistical methods.
 
 
