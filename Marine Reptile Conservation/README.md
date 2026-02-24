@@ -67,10 +67,10 @@ Visualisations below presents data insights on pollution, focusing on the distri
 <table>
   <tr>
     <td align="center">
-      <img src="assets/plas_dis.png" alt="Image 1" width="450">
+      <img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/plas_dis.png" alt="Image 1" width="450">
     </td>
     <td align="center">
-      <img src="assets/plas_trend.png" alt="Image 2" width="450">
+      <img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/plas_trend.png" alt="Image 2" width="450">
     </td>
   </tr>
 </table>
@@ -82,10 +82,10 @@ This section covers a feature that lets users record and monitor their plastic w
 <table>
   <tr>
     <td align="center">
-      <img src="assets/rec_track.png" alt="Image 1" width="450">
+      <img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/rec_track.png" alt="Image 1" width="450">
     </td>
     <td align="center">
-      <img src="assets/plas_con.png" alt="Image 2" width="450">
+      <img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/plas_con.png" alt="Image 2" width="450">
     </td>
   </tr>
 </table>
@@ -94,4 +94,4 @@ This section covers a feature that lets users record and monitor their plastic w
 
 Interactive map below provides a system that helps eco conscious users locate and visit plastic processing facilities so they can handle collected plastic waste responsibly. It makes it easier to find nearby places to clean, sort, and recycle plastic waste, supporting daily efforts to combat plastic pollution. By encouraging facility visits, the system helps reduce plastic waste in local communities and strengthens sustainable waste management.
 
-<img src="assets/re_fac.png" alt="Alt text" width="700">
+<img src="https://github.com/Nikitaahlawat1/portfolio/blob/b2bb1640feaeff7dfd2ba490157e0e7be4d0d8bd/assets/re_fac.png" alt="Alt text" width="700">
