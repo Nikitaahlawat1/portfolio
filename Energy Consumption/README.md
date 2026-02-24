@@ -71,7 +71,7 @@ Time-Series Models:
 MAE (Mean Absolute Error)
 RMSE (Root Mean Squared Error)
 
-### 8. Performance
+## 8. Performance
 
 Achieved ~15–25% improvement in RMSE over baseline models
 Strong alignment between forecasted and actual load values
