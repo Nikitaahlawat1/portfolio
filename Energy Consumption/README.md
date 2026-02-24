@@ -1,7 +1,6 @@
 # Energy Consumption 
 
-![images](https://github.com/user-attachments/assets/be1c8aa0-6f61-42e8-a508-18245fbe44ef)
-
+<img width="1920" height="500" alt="image" src="https://github.com/user-attachments/assets/be1c8aa0-6f61-42e8-a508-18245fbe44ef" />
 
 ## 1. Project Overview
 
