@@ -37,7 +37,7 @@ Several generation types (offshore wind, peat, shale, geothermal) were found to 
 
 ## 4. Exploratory Data Analysis (EDA)
 
-Key findings:
+<b>Key findings:</b>
 <ul class="tabbed-list">
   <li>Strong daily (24-hour) seasonality</li>
   <li>Weekly demand cycles</li>
@@ -47,7 +47,7 @@ Key findings:
   <li>Renewable penetration impacts price volatility</li>
 </ul>
 
-Visualizations included:
+<b>Visualizations included:</b>
 <ul class="tabbed-list">
   <li>Load and price time-series</li>
   <li>Distribution analysis</li>
