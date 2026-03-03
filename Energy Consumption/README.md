@@ -40,9 +40,9 @@ Key findings:
 <li>Electricity price moderately correlated with demand</li>
 <li>Fossil gas generation strongly correlated with price</li>
 <li>Wind generation negatively correlated with price (merit-order effect)</li>
-<li>Renewable penetration impacts price volatility</li>
+<li>Renewable penetration impacts price volatility</li>&nbsp;&nbsp;&nbsp;&nbsp;
 
-&nbsp;&nbsp;&nbsp;&nbsp;Visualizations included:
+Visualizations included:
 <li>Load and price time-series</li>
 <li>Distribution analysis</li>
 <li>Correlation matrix</li>
