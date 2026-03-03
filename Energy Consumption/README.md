@@ -5,16 +5,12 @@
 ## 1. Project Overview
 
 This project analyzes and forecasts hourly electricity demand and market prices using time-series and machine learning techniques.
-
 Using ~35,000 hourly records of energy generation, demand, and pricing data, the project:
 
-<li>Performs exploratory data analysis (EDA)<\li>
-
-Engineers time-aware and domain-specific features
-
-Benchmarks multiple forecasting approaches
-
-Compares classical statistical models with machine learning models
+<li>Performs exploratory data analysis (EDA)</li>
+<li>Engineers time-aware and domain-specific features</li>
+<li>Benchmarks multiple forecasting approaches</li>
+<li>Compares classical statistical models with machine learning models</li>
 
 The goal is to evaluate which modeling approach performs best for short-term electricity load forecasting.
 
@@ -23,66 +19,70 @@ The goal is to evaluate which modeling approach performs best for short-term ele
 Records: 35,000+ hourly time-series entries
 Features: 26 variables
 Domains Covered:
-
-  Electricity generation by fuel type (fossil & renewable)
-  Solar and wind day-ahead forecasts
-  Total load (forecast vs actual)
-  Market prices (day-ahead vs actual)
+  <li>Electricity generation by fuel type (fossil & renewable)</li>
+  <li>Solar and wind day-ahead forecasts</li>
+  <li>Total load (forecast vs actual)</li>
+  <li>Market prices (day-ahead vs actual)</li>
 
 ## 3. Key Energy Sources
 
-  Fossil gas, hard coal, oil
-  Solar, wind (onshore), biomass
-  Hydro & pumped storage
+  <li>Fossil gas, hard coal, oil</li>
+  <li>Solar, wind (onshore), biomass</li>
+  <li>Hydro & pumped storage</li>
 
 Several generation types (offshore wind, peat, shale, geothermal) were found to contain only zero or null values and were removed during data cleaning.
 
-## 4. Data Cleaning & Preprocessing
+## 4. Exploratory Data Analysis (EDA)
 
-Handled missing values (<0.1%) using time-series interpolation
-Removed 100% null or zero-information columns
-Standardized timestamps and ensured hourly continuity
-Created aggregate features:
-  Renewable generation total
-  Fossil generation total
-  Net pumped storage contribution
+Key findings:
+<li>Strong daily (24-hour) seasonality</li>
+<li>Weekly demand cycles</li>
+<li>Electricity price moderately correlated with demand</li>
+<li>Fossil gas generation strongly correlated with price</li>
+<li>Wind generation negatively correlated with price (merit-order effect)</li>
+<li>Renewable penetration impacts price volatility</li>
 
-## 5. Exploratory Data Analysis (EDA)
+Visualizations included:
+<li>Load and price time-series</li>
+<li>Distribution analysis</li>
+<li>Correlation matrix</li>
+<li>Renewable vs fossil comparison</li>
 
-Energy mix composition and contribution analysis
-Seasonal and diurnal patterns in load and renewables
-Correlation analysis between:
-  Renewables and prices
-  Load and fossil generation
-Distribution analysis of electricity prices
-
-### 5.1 Key Insight:
-High renewable penetration (solar & wind) is associated with increased short-term price volatility, increasing the importance of accurate forecasting.
-
-## 6. Feature Engineering
+## 5. Feature Engineering
 
 Time-based features: hour, day, month, weekday, season
-Lag features: 1h, 24h, 7-day lags
+Cyclical Encoding: hour_sin, hour_cos, dow_sin, dow_cos, month_sin, month_cos
+Lag features: 1h, 24h, 168h(7-day) lags
 Rolling statistics: 3h, 24h, 7-day averages
 Forecast residual features (forecast vs actual)
+Energy Market Features: Renewable generation ratio, Demand–supply gap, Total fossil vs renewable generation
 
-## 7. Modeling & Forecasting
-### 7.1 Models Implemented
-Baseline statistical models
-Machine Learning:
-  Linear Regression
-  Random Forest
-  XGBoost
+## 6. Modeling & Forecasting
+### 6.1 Models Implemented
 
-Time-Series Models:
-  LSTM (optional extension)
+Naive Baselines: 
+  <li>Persistence (t-1)</li>
+  <li>Seasonal Naive (t-24)</li>
+    
+ARIMA / SARIMA:
+  <li>Classical statistical time-series model</li>
+  <li>Seasonal component (24-hour cycle)</li>
+  <li>Captures trend + autoregressive structure</li>
 
-### 7.2 Evaluation Metrics
-MAE (Mean Absolute Error)
-RMSE (Root Mean Squared Error)
+XGBoost Regressor:
+  <li>Gradient boosting tree-based model</li>
+  <li>Uses engineered features + lag variables</li>
+  <li>Captures nonlinear relationships</li>
+  <li>Handles interaction effects automatically</li>
 
-## 8. Performance
+### 6.2 Evaluation Metrics
+<li>MSE (Mean Squared Error)</li>
+<li>MAE (Mean Absolute Error)</li>
+<li>RMSE (Root Mean Squared Error</li>
+<li>MAPE (Mean Absolute Percentage Error)</li>
 
-Achieved ~15–25% improvement in RMSE over baseline models
-Strong alignment between forecasted and actual load values
-Robust renewable generation forecasting performance
+
+## 7. Performance and Results
+<li>Seasonal Naive performs strongly due to daily seasonality</li>
+<li>SARIMA improves trend modeling</li>
+<li>XGBoost generally achieves the best predictive performance</li>
