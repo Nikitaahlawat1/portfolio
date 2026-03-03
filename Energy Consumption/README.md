@@ -6,11 +6,11 @@
 
 This project analyzes and forecasts hourly electricity demand and market prices using time-series and machine learning techniques.
 Using ~35,000 hourly records of energy generation, demand, and pricing data, the project:
-
-&nbsp;&nbsp;&nbsp;&nbsp;<li>Performs exploratory data analysis (EDA)</li>
-&nbsp;&nbsp;&nbsp;&nbsp;<li>Engineers time-aware and domain-specific features</li>
-&nbsp;&nbsp;&nbsp;&nbsp;<li>Benchmarks multiple forecasting approaches</li>
-&nbsp;&nbsp;&nbsp;&nbsp;<li>Compares classical statistical models with machine learning models</li>
+<ul class="tabbed-list">
+  <li>Performs exploratory data analysis (EDA)</li>
+  <li>Engineers time-aware and domain-specific features</li>
+  <li>Benchmarks multiple forecasting approaches</li>
+  <li>Compares classical statistical models with machine learning models</li>
 
 The goal is to evaluate which modeling approach performs best for short-term electricity load forecasting.
 
@@ -35,18 +35,20 @@ Several generation types (offshore wind, peat, shale, geothermal) were found to 
 ## 4. Exploratory Data Analysis (EDA)
 
 Key findings:
-<li>Strong daily (24-hour) seasonality</li>
-<li>Weekly demand cycles</li>
-<li>Electricity price moderately correlated with demand</li>
-<li>Fossil gas generation strongly correlated with price</li>
-<li>Wind generation negatively correlated with price (merit-order effect)</li>
-<li>Renewable penetration impacts price volatility</li>&nbsp;&nbsp;&nbsp;&nbsp;
+<ul class="tabbed-list">
+  <li>Strong daily (24-hour) seasonality</li>
+  <li>Weekly demand cycles</li>
+  <li>Electricity price moderately correlated with demand</li>
+  <li>Fossil gas generation strongly correlated with price</li>
+  <li>Wind generation negatively correlated with price (merit-order effect)</li>
+  <li>Renewable penetration impacts price volatility</li>&nbsp;&nbsp;&nbsp;&nbsp;
 
 Visualizations included:
-<li>Load and price time-series</li>
-<li>Distribution analysis</li>
-<li>Correlation matrix</li>
-<li>Renewable vs fossil comparison</li>
+<ul class="tabbed-list">
+  <li>Load and price time-series</li>
+  <li>Distribution analysis</li>
+  <li>Correlation matrix</li>
+  <li>Renewable vs fossil comparison</li>
 
 ## 5. Feature Engineering
 
@@ -61,19 +63,19 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 ### 6.1 Models Implemented
 
 Naive Baselines: 
-  <li>Persistence (t-1)</li>
-  <li>Seasonal Naive (t-24)</li>&nbsp;&nbsp;&nbsp;&nbsp;
+  <ol>Persistence (t-1)</ol>
+  <ol>Seasonal Naive (t-24)</ol>&nbsp;&nbsp;&nbsp;&nbsp;
     
 ARIMA / SARIMA:
-  <li>Classical statistical time-series model</li>
-  <li>Seasonal component (24-hour cycle)</li>
-  <li>Captures trend + autoregressive structure</li>&nbsp;&nbsp;&nbsp;&nbsp;
+  <ol>Classical statistical time-series model</ol>
+  <ol>Seasonal component (24-hour cycle)</ol>
+  <ol>Captures trend + autoregressive structure</ol>&nbsp;&nbsp;&nbsp;&nbsp;
 
 XGBoost Regressor:
-  <li>Gradient boosting tree-based model</li>
-  <li>Uses engineered features + lag variables</li>
-  <li>Captures nonlinear relationships</li>
-  <li>Handles interaction effects automatically</li>
+  <ol>Gradient boosting tree-based model</ol>
+  <ol>Uses engineered features + lag variables</ol>
+  <ol>Captures nonlinear relationships</ol>
+  <ol>Handles interaction effects automatically</ol>
 
 ### 6.2 Evaluation Metrics
 <li>MSE (Mean Squared Error)</li>
