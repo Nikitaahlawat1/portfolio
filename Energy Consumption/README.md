@@ -89,11 +89,7 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 </ol>
 
 ### 6.2 Evaluation Metrics
-MSE (Mean Squared Error)
-MAE (Mean Absolute Error)
-RMSE (Root Mean Squared Error
-MAPE (Mean Absolute Percentage Error)
-
+MSE (Mean Squared Error), MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), MAPE (Mean Absolute Percentage Error)
 
 ## 7. Performance and Results
 <ol>
