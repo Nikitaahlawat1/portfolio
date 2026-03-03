@@ -11,7 +11,7 @@ Using ~35,000 hourly records of energy generation, demand, and pricing data, the
   <li>Engineers time-aware and domain-specific features</li>
   <li>Benchmarks multiple forecasting approaches</li>
   <li>Compares classical statistical models with machine learning models</li>
-
+</ul>
 The goal is to evaluate which modeling approach performs best for short-term electricity load forecasting.
 
 ## 2. Dataset Description
@@ -19,16 +19,19 @@ The goal is to evaluate which modeling approach performs best for short-term ele
 Records: 35,000+ hourly time-series entries
 Features: 26 variables
 Domains Covered:
+<ul class="tabbed-list">
   <li>Electricity generation by fuel type (fossil & renewable)</li>
   <li>Solar and wind day-ahead forecasts</li>
   <li>Total load (forecast vs actual)</li>
   <li>Market prices (day-ahead vs actual)</li>
+</ul>
 
 ## 3. Key Energy Sources
-
+<ul class="tabbed-list">
   <li>Fossil gas, hard coal, oil</li>
   <li>Solar, wind (onshore), biomass</li>
   <li>Hydro & pumped storage</li>
+</ul>
 
 Several generation types (offshore wind, peat, shale, geothermal) were found to contain only zero or null values and were removed during data cleaning.
 
@@ -42,14 +45,14 @@ Key findings:
   <li>Fossil gas generation strongly correlated with price</li>
   <li>Wind generation negatively correlated with price (merit-order effect)</li>
   <li>Renewable penetration impacts price volatility</li>&nbsp;&nbsp;&nbsp;&nbsp;
-
+</ul>
 Visualizations included:
 <ul class="tabbed-list">
   <li>Load and price time-series</li>
   <li>Distribution analysis</li>
   <li>Correlation matrix</li>
   <li>Renewable vs fossil comparison</li>
-
+</ul>
 ## 5. Feature Engineering
 
 Time-based features: hour, day, month, weekday, season
