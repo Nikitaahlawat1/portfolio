@@ -44,8 +44,9 @@ Key findings:
   <li>Electricity price moderately correlated with demand</li>
   <li>Fossil gas generation strongly correlated with price</li>
   <li>Wind generation negatively correlated with price (merit-order effect)</li>
-  <li>Renewable penetration impacts price volatility</li>&nbsp;&nbsp;&nbsp;&nbsp;
+  <li>Renewable penetration impacts price volatility</li>
 </ul>
+
 Visualizations included:
 <ul class="tabbed-list">
   <li>Load and price time-series</li>
@@ -53,6 +54,7 @@ Visualizations included:
   <li>Correlation matrix</li>
   <li>Renewable vs fossil comparison</li>
 </ul>
+
 ## 5. Feature Engineering
 
 Time-based features: hour, day, month, weekday, season
