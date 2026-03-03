@@ -7,7 +7,7 @@
 This project analyzes and forecasts hourly electricity demand and market prices using time-series and machine learning techniques.
 Using ~35,000 hourly records of energy generation, demand, and pricing data, the project:
 
-&nbsp;&nbsp;&nbsp;&nbsp;<li>Performs exploratory data analysis (EDA)</li>
+<li>Performs exploratory data analysis (EDA)</li>
 <li>Engineers time-aware and domain-specific features</li>
 <li>Benchmarks multiple forecasting approaches</li>
 <li>Compares classical statistical models with machine learning models</li>
@@ -42,7 +42,7 @@ Key findings:
 <li>Wind generation negatively correlated with price (merit-order effect)</li>
 <li>Renewable penetration impacts price volatility</li>
 
-Visualizations included:
+&nbsp;&nbsp;&nbsp;&nbsp;Visualizations included:
 <li>Load and price time-series</li>
 <li>Distribution analysis</li>
 <li>Correlation matrix</li>
