@@ -67,16 +67,17 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 ## 6. Modeling & Forecasting
 ### 6.1 Models Implemented
 
-Naive Baselines: 
-  <ol>Persistence (t-1)</ol>
-  <ol>Seasonal Naive (t-24)</ol>
-    
-ARIMA / SARIMA:
+<li>Naive Baselines: </li>
+<ol>
+  <li>Persistence (t-1)</li>
+  <li>Seasonal Naive (t-24)</li>
+  </ol> 
+<li>ARIMA / SARIMA: </li>
   <ol>Classical statistical time-series model</ol>
   <ol>Seasonal component (24-hour cycle)</ol>
   <ol>Captures trend + autoregressive structure</ol>
 
-XGBoost Regressor:
+<li>XGBoost Regressor: </li>
   <ol>Gradient boosting tree-based model</ol>
   <ol>Uses engineered features + lag variables</ol>
   <ol>Captures nonlinear relationships</ol>
