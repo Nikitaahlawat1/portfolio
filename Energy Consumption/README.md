@@ -72,6 +72,7 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
   <li>Persistence (t-1)</li>
   <li>Seasonal Naive (t-24)</li>
 </ol> 
+</ul>
 
 <li>ARIMA / SARIMA: </li>
 <ol>
@@ -88,6 +89,7 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
   <li>Handles interaction effects automatically</li>
 </ol>
 </ul>
+
 ### 6.2 Evaluation Metrics
 MSE (Mean Squared Error), MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), MAPE (Mean Absolute Percentage Error)
 
