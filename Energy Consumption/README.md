@@ -71,21 +71,22 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 <ol>
   <li>Persistence (t-1)</li>
   <li>Seasonal Naive (t-24)</li>
-  </ol> 
+</ol> 
+
 <li>ARIMA / SARIMA: </li>
-  <ol>
+<ol>
   <li>Classical statistical time-series model</li>
   <li>Seasonal component (24-hour cycle)</li>
   <li>Captures trend + autoregressive structure</li>
-  </ol>
+</ol>
 
 <li>XGBoost Regressor: </li>
-  <ol>
+<ol>
   <li>Gradient boosting tree-based model</li>
   <li>Uses engineered features + lag variables</li>
   <li>Captures nonlinear relationships</li>
   <li>Handles interaction effects automatically</li>
-  </ol>
+</ol>
 
 ### 6.2 Evaluation Metrics
 <li>MSE (Mean Squared Error)</li>
