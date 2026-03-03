@@ -89,13 +89,15 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 </ol>
 
 ### 6.2 Evaluation Metrics
-<li>MSE (Mean Squared Error)</li>
-<li>MAE (Mean Absolute Error)</li>
-<li>RMSE (Root Mean Squared Error</li>
-<li>MAPE (Mean Absolute Percentage Error)</li>
+MSE (Mean Squared Error)
+MAE (Mean Absolute Error)
+RMSE (Root Mean Squared Error
+MAPE (Mean Absolute Percentage Error)
 
 
 ## 7. Performance and Results
+<ol>
 <li>Seasonal Naive performs strongly due to daily seasonality</li>
 <li>SARIMA improves trend modeling</li>
 <li>XGBoost generally achieves the best predictive performance</li>
+</ol>
