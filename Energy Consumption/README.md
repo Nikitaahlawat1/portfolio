@@ -66,7 +66,7 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 
 ## 6. Modeling & Forecasting
 ### 6.1 Models Implemented
-
+<ul class="tabbed-list">
 <li>Naive Baselines: </li>
 <ol>
   <li>Persistence (t-1)</li>
@@ -87,7 +87,7 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
   <li>Captures nonlinear relationships</li>
   <li>Handles interaction effects automatically</li>
 </ol>
-
+</ul>
 ### 6.2 Evaluation Metrics
 MSE (Mean Squared Error), MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), MAPE (Mean Absolute Percentage Error)
 
