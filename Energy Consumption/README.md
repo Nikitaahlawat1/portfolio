@@ -4,8 +4,19 @@
 
 ## 1. Project Overview
 
-This project delivers an end-to-end data science analysis and forecasting pipeline for electricity generation, system load, and market prices using 35,000+ hourly observations.
-The goal is to understand energy mix dynamics, renewable variability, and market behaviour, and to build accurate forecasting models to support energy planning and decision-making.
+This project analyzes and forecasts hourly electricity demand and market prices using time-series and machine learning techniques.
+
+Using ~35,000 hourly records of energy generation, demand, and pricing data, the project:
+
+<li>Performs exploratory data analysis (EDA)<\li>
+
+Engineers time-aware and domain-specific features
+
+Benchmarks multiple forecasting approaches
+
+Compares classical statistical models with machine learning models
+
+The goal is to evaluate which modeling approach performs best for short-term electricity load forecasting.
 
 ## 2. Dataset Description
 
