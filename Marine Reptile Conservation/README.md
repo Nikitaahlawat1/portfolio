@@ -9,7 +9,7 @@ The project aims to create an interactive and educational website focused on mar
 ## 2. Skills & Tools
 
 ### 2.1 Tools
-- Python, SQL, Pandas, NumPy, GIT, Machine Learning, D3.js, Leaflet, RestAPI, Azure, Tableau, Excel, CSV, APIs
+- Python, SQL, Pandas, NumPy, GIT, Machine Learning, D3.js, Leaflet, RestAPI, Azure, Excel, CSV, APIs
 
 ### 2.2 Soft Skills
 - Leadership, Team Collaboration, Communicating insights to non-technical audiences, Structured problem-solving, Cross-functional collaboration
