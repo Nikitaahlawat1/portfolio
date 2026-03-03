@@ -14,7 +14,16 @@ Using ~35,000 hourly records of energy generation, demand, and pricing data, the
 </ul>
 The goal is to evaluate which modeling approach performs best for short-term electricity load forecasting.
 
-## 2. Dataset Description
+## 2. Skills & Tools
+
+### 2.1 Tools
+- Python, Pandas, NumPy, Matplotlib, Scikit learn, GIT, Time-series Forecasting, Machine Learning, Excel, CSV
+
+### 2.2 Soft Skills
+- Structured problem-solving, Critical thinking, Adaptability
+
+
+## 3. Dataset Description
 
 Records: 35,000+ hourly time-series entries
 Features: 26 variables
@@ -26,7 +35,7 @@ Domains Covered:
   <li>Market prices (day-ahead vs actual)</li>
 </ul>
 
-## 3. Key Energy Sources
+## 4. Key Energy Sources
 <ul class="tabbed-list">
   <li>Fossil gas, hard coal, oil</li>
   <li>Solar, wind (onshore), biomass</li>
@@ -35,7 +44,7 @@ Domains Covered:
 
 Several generation types (offshore wind, peat, shale, geothermal) were found to contain only zero or null values and were removed during data cleaning.
 
-## 4. Exploratory Data Analysis (EDA)
+## 5. Exploratory Data Analysis (EDA)
 
 <b>Key findings:</b>
 <ul class="tabbed-list">
@@ -55,7 +64,7 @@ Several generation types (offshore wind, peat, shale, geothermal) were found to 
   <li>Renewable vs fossil comparison</li>
 </ul>
 
-## 5. Feature Engineering
+## 6. Feature Engineering
 
 Time-based features: hour, day, month, weekday, season
 Cyclical Encoding: hour_sin, hour_cos, dow_sin, dow_cos, month_sin, month_cos
@@ -64,8 +73,8 @@ Rolling statistics: 3h, 24h, 7-day averages
 Forecast residual features (forecast vs actual)
 Energy Market Features: Renewable generation ratio, Demand–supply gap, Total fossil vs renewable generation
 
-## 6. Modeling & Forecasting
-### 6.1 Models Implemented
+## 7. Modeling & Forecasting
+### 7.1 Models Implemented
 <ul class="tabbed-list">
 <li><b>Naive Baselines: </b></li>
 <ol>
@@ -89,10 +98,10 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 </ol>
 </ul>
 
-### 6.2 Evaluation Metrics
+### 7.2 Evaluation Metrics
 MSE (Mean Squared Error), MAE (Mean Absolute Error), RMSE (Root Mean Squared Error), MAPE (Mean Absolute Percentage Error)
 
-## 7. Performance and Results
+## 8. Performance and Results
 <ol>
 <li>Seasonal Naive performs strongly due to daily seasonality</li>
 <li>SARIMA improves trend modeling</li>
