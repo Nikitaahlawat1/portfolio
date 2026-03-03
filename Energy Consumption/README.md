@@ -72,7 +72,6 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
   <li>Persistence (t-1)</li>
   <li>Seasonal Naive (t-24)</li>
 </ol> 
-</ul>
 
 <li>ARIMA / SARIMA: </li>
 <ol>
