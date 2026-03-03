@@ -67,7 +67,7 @@ Energy Market Features: Renewable generation ratio, Demand–supply gap, Total f
 ## 6. Modeling & Forecasting
 ### 6.1 Models Implemented
 <ul class="tabbed-list">
-<li>Naive Baselines: </li>
+<li><b>Naive Baselines: </b>b></li>
 <ol>
   <li>Persistence (t-1)</li>
   <li>Seasonal Naive (t-24)</li>
